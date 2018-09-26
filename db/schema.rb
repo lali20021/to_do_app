@@ -21,9 +21,11 @@ ActiveRecord::Schema.define(version: 2018_09_26_011253) do
   end
 
   create_table "items", force: :cascade do |t|
+    t.integer "user_id"
     t.string "todo"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_items_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|

@@ -1,1 +1,15 @@
-fdjkwejkejk
+
+
+<% if @items.empty? %>
+<h1>No Items Yet!</h1>
+<a href='/items/new'>Add one Now!</a>
+
+<%else%>
+
+<% @items.each do |item| %>
+<div>
+  <%= item.todo %>
+</div>
+<% end %>
+
+<% end %>
