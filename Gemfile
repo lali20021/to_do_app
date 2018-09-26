@@ -45,6 +45,7 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'font-awesome-sass', '~> 5.3', '>= 5.3.1'
 gem 'bootstrap-sass-extras', '~> 0.0.7'
+
 gem 'devise', '~> 4.5'
 gem 'simple_form', '~> 4.0', '>= 4.0.1'
 
