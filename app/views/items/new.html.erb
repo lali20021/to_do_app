@@ -1,1 +1,6 @@
-new 
+<%= form_for @item do |f| %>
+<%= f.label :todo, 'New to do:' %>
+<%= f.text_field :todo %>
+<%= f.submit "Submit", class: 'btn btn-outline-success' %>
+<%= link_to "Back", items_path, class: 'btn btn-outline-success' %>
+<% end %>
