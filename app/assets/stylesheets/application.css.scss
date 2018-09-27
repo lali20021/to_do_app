@@ -1,7 +1,13 @@
 @import "bootstrap-sprockets";
+
+// external fonts
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+
+
 @import "bootstrap";
 @import "font-awesome-sprockets";
 @import "font-awesome";
 @import "lux";
 @import "nav";
 @import "foot";
+@import "about";
